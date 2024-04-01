@@ -2,4 +2,4 @@
 React, TypeScript, Redux-toolkit, Scss, Css-modules
 
 
-<a href="https://nflx.netlify.app/">Посмотреть</a>
+<a href="https://nflex.netlify.app/">Посмотреть</a>
