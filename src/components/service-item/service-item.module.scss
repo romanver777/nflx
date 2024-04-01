@@ -1,0 +1,43 @@
+.service-item {
+  width: 62px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+
+  &__btn {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    path {
+      fill: #838383;
+      transition: fill 0.5s;
+    }
+    &:hover path {
+      transition: fill 0.5s;
+      fill: #101010;
+    }
+  }
+
+  &__count {
+    position: absolute;
+    top: 12px;
+    right: 9px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #ffa542;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,41 @@
+.basket-list {
+  margin: 29px 0 20px;
+
+  @media (max-width: 1110px) {
+    padding: 0 20px;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1c1c27;
+    margin-bottom: 13px;
+  }
+
+  &__data {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    width: 100%;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__ul {
+    grid-column: 1/8;
+    
+    @media (max-width: 768px) {
+      grid-column: 1;
+    }
+  }
+
+  &__li {
+    margin-bottom: 13px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.locale-select {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+
+  &__btn {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    color: #101010;
+    transition: color 0.5s;
+
+    &:hover {
+      color: #ffa542;
+    }
+
+    &_active {
+      color: #ffa542;
+      font-weight: bold;
+    }
+  }
+}
